@@ -1,0 +1,14 @@
+begin program:
+
+integer value1 := -4; // declara inteiro 1
+integer value2 := 10; // declara inteiro 2
+var string1 := "lalala"; // declara string
+boolean verdade := true; // declara booleano
+
+while (value1 < value2) do:
+write string1;
+write verdade;
+value1 := value1 + 1;
+end while
+
+end program
